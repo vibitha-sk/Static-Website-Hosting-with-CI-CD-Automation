@@ -1,0 +1,1 @@
+# Static-Website-Hosting-with-CI-CD-Automation
