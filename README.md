@@ -8,12 +8,22 @@ This project is a demonstration of hosting a static website on Azure Cloud by us
 ![demo](images/az-static-web_demo.png)
 
 ### 📋Prerequisites
-- An active Azure Subscription with sufficient permissions.
-- An App Registration with a Service Principal configured in Microsoft entra ID.
-- A Service Connection set up in Azure DevOps linked to your Azure Subscription.
-- An Azure Blob Storage Account with static website hosting enabled.
-- An Azure CDN Profile and Endpoint connected to the Storage Account.
-- A Self-hosted Azure DevOps Agent configured and running.
+- *An active Azure Subscription with sufficient permissions.*
+
+- *An App Registration with a Service Principal configured in Microsoft entra ID.*
+![app](images/AppReg.png) ![serv principal](images/ServPrinciple.png)
+
+ - *A Service Connection set up in Azure DevOps linked to your Azure Subscription.*
+![service connection](images/ServConnection.png)
+
+- *An Azure Blob Storage Account with static website hosting enabled.*
+![url page](images/staticwebsite_urlpage.png)
+
+- *An Azure CDN Profile and Endpoint connected to the Storage Account.*
+![CDN](images/CDN.png)
+
+- *A Self-hosted Azure DevOps Agent configured and running.*
+![agent](images/Agent_VIBI_online.png)
 
 
 
@@ -26,3 +36,12 @@ This project is a demonstration of hosting a static website on Azure Cloud by us
 
 
 ### 🪧Demonstration
+
+#### *Pipeline Success*
+![pipeline success](images/pipeline_succeeded.png)
+
+#### *Web Interface*
+![web](images/webinterface.png)
+
+
+
